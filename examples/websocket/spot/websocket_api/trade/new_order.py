@@ -6,7 +6,7 @@ from binance.lib.utils import config_logging
 from binance.websocket.spot.websocket_api import SpotWebsocketAPIClient
 from examples.utils.prepare_env import get_api_key
 
-api_key, api_secret = get_api_key()
+api_key, api_secret = get_api_key(r2gs0PqIjzVifwy6HexPtAaa6n95NExNE75nA4Kfv6cHTALmfX73Kx4DG84ugsdw)
 
 config_logging(logging, logging.DEBUG)
 
